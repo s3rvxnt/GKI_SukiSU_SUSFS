@@ -27,7 +27,7 @@ jobs:
       matrix:
         include:
           - sub_level: "98"
-            os_patch_level: "2025-09"
+            os_patch_level: "2025-08"
     uses: ./.github/workflows/gki-kernel.yml
     secrets: inherit
     with:
